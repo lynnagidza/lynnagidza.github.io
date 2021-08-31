@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+html, body, .container-fluid, .row {
+    height: 100%;
+}
+
+.nav {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    font-size: 18px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #015249;
+    font-family: 'Klee One';
+}
+
+.nav a:hover {
+    color: #1E392A;
+}
+
+#des {
+    text-align: right;
+    background-color: #015249;
+    color: #F5F5F5;
+    font-family: 'Klee One';
+    font-size: 18px;
+}
+
+#dev {
+    background-color: #F5F5F5;
+    color: #015249;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+#des h1, p, #dev h1, p {
+    margin: 0;
+    position: relative;
+    top: 40%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+/* .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:#F5F5F5;
+    color: #015249;
+    text-align: center;
+} */
