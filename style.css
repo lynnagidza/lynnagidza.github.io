@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 html, body, .container-fluid, .row {
     height: 100%;
+    background-color: #F5F5F5;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 .nav {
@@ -10,15 +12,27 @@ html, body, .container-fluid, .row {
     font-size: 18px;
 }
 
-.nav a {
+a {
     text-decoration: none;
     color: #015249;
-    font-family: 'Klee One';
 }
 
-.nav a:hover {
+a:hover {
     color: #1E392A;
 }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: #015249;
+    font-weight: lighter;
+    font-size: 10px;
+    text-align: center;
+}
+
+/* HOME PAGE STYLING */
 
 #des {
     text-align: right;
@@ -31,24 +45,74 @@ html, body, .container-fluid, .row {
 #dev {
     background-color: #F5F5F5;
     color: #015249;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
 }
 
 #des h1, p, #dev h1, p {
     margin: 0;
     position: relative;
-    top: 40%;
+    top: 45%;
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
 }
 
-/* .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color:#F5F5F5;
-    color: #015249;
+#dev p:hover, #des p:hover {
+    font-size: 150%;
+}
+
+/* ABOUT PAGE STYLING */
+
+
+.navbar-nav {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+#block {
+    align-content: center;
+    width: 80%;
     text-align: center;
-} */
+}
+
+hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+#avatar img {
+    width: 300px;
+    height: 400px;
+    float: inline-end;
+}
+
+
+#words {
+    height: 400px;
+    padding-left: 10px;
+    text-align: left;
+}
+
+#words h2 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #015249;
+}
+
+#words p {
+    font-family: 'Klee One';
+    font-size: 14px;
+}
+
+p a i {
+    color: #015249;
+    size: 50px;
+}
+
+p a i:hover {
+    color: #1E392A;
+    transform: scale(1.5);
+}
