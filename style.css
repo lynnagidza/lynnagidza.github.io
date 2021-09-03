@@ -90,14 +90,20 @@ hr {
     border-top: 1px solid rgba(0, 0, 0, 0.1);
 }
 
-#avatar img {
+#content {
+    text-align: center;
+    /* padding: auto; */
+}
+
+#content img {
     width: 300px;
     height: 400px;
-    /* float: inline-end; */
+    margin: 4%;
 }
 
 #words {
     height: 400px;
+    width: auto;
     padding-left: 10px;
     text-align: left;
     padding: 4%;
