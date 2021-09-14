@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 html, body, .container-fluid, .row {
     height: 100%;
     /* overflow-x: hidden; */
     background-color: #F5F5F5;
-    font-family: 'Besley';
+    font-family: 'Quicksand';
 }
 
 .nav {
