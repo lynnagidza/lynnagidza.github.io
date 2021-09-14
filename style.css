@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Klee+One|Besley&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One&display=swap');
 html, body, .container-fluid, .row {
     height: 100%;
     /* overflow-x: hidden; */
@@ -92,6 +92,7 @@ hr {
 
 h4 {
     font-family: 'Klee One';
+    text-transform: uppercase;
 }
 
 #content {
