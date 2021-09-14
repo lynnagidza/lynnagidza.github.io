@@ -107,7 +107,7 @@ h4{font-family: 'Klee One';}
     height: 400px;
     width: auto;
     padding-left: 10px;
-    /* text-align: left; */
+    text-align: justify;
     padding: 4%;
 }
 
@@ -115,7 +115,7 @@ h4{font-family: 'Klee One';}
     font-size: 24px;
     font-weight: bolder;
     color: #015249;
-    text-align: center;
+    /* text-align: center; */
 }
 
 #words p {
