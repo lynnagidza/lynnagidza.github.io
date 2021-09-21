@@ -136,3 +136,10 @@ p a i:hover {
     color: #1E392A;
     transform: scale(1.5);
 }
+
+/* DEV PAGE STYLING */
+.dev-page {
+  background-color: #015249;
+}
+
+/* DESIGN PAGE STYLING */
