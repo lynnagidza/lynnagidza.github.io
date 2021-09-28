@@ -74,5 +74,5 @@ export default function App() {
 
 ReactDOM.render(
   <App />,
-  document.getElementById('#client-cards')
+  document.getElementById('client-cards')
 );
