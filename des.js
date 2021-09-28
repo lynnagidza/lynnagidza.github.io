@@ -68,5 +68,11 @@ export default function App() {
   );
 }
 
-const domContainer = document.querySelector('#client-cards');
-ReactDOM.render(App(), domContainer);
+// const domContainer = document.querySelector('#client-cards');
+// ReactDOM.render(App(), domContainer);
+
+
+ReactDOM.render(
+  <App />,
+  document.getElementById('#client-cards')
+);
