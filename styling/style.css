@@ -43,6 +43,10 @@ a:hover {
     font-size: 18px;
 }
 
+#des a {
+  color: #F5F5F5;
+}
+
 #dev {
     background-color: #F5F5F5;
     color: #015249;
