@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
 body{
   margin: 0;
   font-family: 'poppins',sans-serif;
@@ -221,7 +223,7 @@ nav ul li a {
   position: absolute;
   height: 2px;
   right: 32%;
-  background-color: #febd01;
+  background-color: #015249;
   bottom: 0px;
 }
 .text-center{
@@ -258,8 +260,8 @@ nav ul li a {
   padding-bottom: 0px;
 }
 .portfolio .filter-buttons ul li.active{
-  color: #febd01;
-  border-bottom: 2px solid #febd01;
+  color: #015249;
+  border-bottom: 2px solid #015249;
 }
 .portfolio .portfolio-gallery{
   flex: 0 0 100%;
