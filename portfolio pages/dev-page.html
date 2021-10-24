@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="portfolio.css">
+  <title>L A | Developer</title>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <input type="checkbox" id="nav" class="hidden">
+      <label for="nav" class="nav-btn">
+        <i></i>
+        <i></i>
+        <i></i>
+      </label>
+      <div class="logo">
+            <a href="../index.html">Ekalaji</a>
+      </div>
+      <div class="nav-wrapper">
+        <ul>
+          <li><a href="../index.html">Home</a></li>
+          <li><a href="design-page.html">Design Portfolio</a></li>
+          <li><a href="#">About Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <section class="portfolio" id="Portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="section-title text-center">
+          <h1>Dev Portfolio</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="filter-buttons">
+          <ul id="filter-btns">
+            <li class="active" data-target="all">ALL</li>
+            <li data-target="Ongoing">ONGOING PROJECTS</li>
+            <li data-target="School">OLD PROJECTS</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="portfolio-gallery">
+
+          <div class="item" data-id="Ongoing">
+            <div class="inner">
+              <img src="media/bluecollar.png" alt="Blue Collar">
+              <h4>Blue Collar Website</h4>
+              <a href="http://bluecollar.epizy.com/" target="_blank">Demo</a>
+            </div>
+          </div>
+
+          <div class="item" data-id="Ongoing">
+            <div class="inner">
+              <img src="media/ddcg.png" alt="DDCG">
+              <h4>Deg-Deg Construction Group</h4>
+              <a href="https://lynnagidza.github.io/DDCG/index.html" target="_blank">Demo</a>
+
+            </div>
+          </div>
+
+          <div class="item" data-id="School">
+            <div class="inner">
+              <img src="media/finalyear.png" alt="Final Year">
+              <h4>Final Year Project</h4>
+              <a href="https://github.com/Mwaluma/student-supervisor-matching-system" target="_blank">Source code</a>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="../script.js"></script>
+
+</body>
+</html>
