@@ -126,7 +126,7 @@ body{
   text-align: center;
 }
 .about-right h1{
-  font-size: 4rem;
+  font-size: 5.5rem;
   text-transform: uppercase;
 }
 .about-right h1 span{
@@ -175,7 +175,7 @@ font-weight: 600;
   font-weight: 300;
   padding: 0.5rem;
   opacity: 0.8;
-  text-align: justify;
+  text-align: left;
 }
 
 .about-para p a{
