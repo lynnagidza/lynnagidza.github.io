@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
-@@font-face {
-  font-family: 'shopping script demo';
-  src: url("Shopping Script Demo.ttf" );
+@font-face {
+    font-family: 'shopping_script_demoregular';
+    src: url('shopping_script_demo-webfont.woff2') format('woff2'),
+         url('shopping_script_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
 }
 
 body{
