@@ -1,0 +1,21 @@
+
+/* DEV PAGE STYLING */
+
+body {
+  background-color: #F5F5F5;
+}
+
+.nav {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    font-size: 18px;
+}
+
+h1 {
+  font-family: 'Times New Roman';
+  /* color: #F5F5F5; */
+  color: #015249;
+  font-size: 60px;
+  text-align: center;
+}

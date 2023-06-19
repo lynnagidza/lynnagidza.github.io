@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="portfolio.css">
+  <title>L A | Developer</title>
+</head>
+<body>
+  <div class="container">
+    <nav>
+      <input type="checkbox" id="nav" class="hidden">
+      <label for="nav" class="nav-btn">
+        <i></i>
+        <i></i>
+        <i></i>
+      </label>
+      <div class="logo">
+            <a href="https://lynnagidza.github.io/"><img src="media/logo1.png" alt="Ekalaji"></a>
+      </div>
+      <div class="nav-wrapper">
+        <ul>
+          <li><a href="https://lynnagidza.github.io/">Home</a></li>
+          <li><a href="design-page.html">Design Portfolio</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <section class="portfolio" id="Portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="section-title text-center">
+          <h1>Dev Portfolio</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="filter-buttons">
+          <ul id="filter-btns">
+            <li class="active" data-target="all">ALL</li>
+            <li data-target="Ongoing">WIP</li>
+            <li data-target="Old">COMPLETED PROJECTS</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="portfolio-gallery">
+
+          <div class="item" data-id="Old">
+            <div class="inner">
+              <img src="media/portfolio.png" alt="My Portfolio">
+              <h4>MY PORTFOLIO</h4>
+<!--               <p>Currently: A work in progress</p> -->
+              <a href="https://lynnagidza.github.io/" target="_blank">Have a look</a>
+            </div>
+          </div>
+
+          <div class="item" data-id="Ongoing">
+            <div class="inner">
+              <img src="media/bluecollar.png" alt="Blue Collar">
+              <h4>BLUE COLLAR WEBSITE</h4>
+              <p>Currently: On hold</p>
+<!--               <a href="http://bluecollar.epizy.com/" target="_blank">Demo (March 2021)</a> -->
+            </div>
+          </div>
+
+          <div class="item" data-id="Ongoing">
+            <div class="inner">
+              <img src="media/ddcg.png" alt="DDCG">
+              <h4>DEG-DEG CONSTRUCTION GROUP</h4>
+              <p>Currently: On hold</p>
+<!--               <a href="https://lynnagidza.github.io/DDCG/index.html" target="_blank">Demo (June 2020)</a>
+ -->
+            </div>
+          </div>
+
+          <div class="item" data-id="Old">
+            <div class="inner">
+              <img src="media/finalyear.png" alt="Final Year">
+              <h4>FINAL YEAR PROJECT</h4>
+              <a href="https://github.com/Mwaluma/student-supervisor-matching-system" target="_blank">Source code (Feb 2021)</a>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="../script.js"></script>
+
+</body>
+</html>
